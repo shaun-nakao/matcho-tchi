@@ -9,11 +9,20 @@
 <body>
     <h1>ようこそ、マッチョっちの世界へ！</h1>
     <p>ぷよっちが成長するのを手伝ってあげましょう！</p>
+    
     <div id="game-container">
-        <img id="puyocchi-image" src="images/puyocchi.png" alt="ぷよっち">
+        <img id="character-image" src="images/puyocchi.png" alt="キャラクター">
+        
+        <div id="status-container">
+            <p>筋肉量: <span id="muscle-stat">0</span></p>
+            <p>脂肪量: <span id="fat-stat">100</span></p>
+        </div>
     </div>
-    <button id="feed-button">ごはんをあげる</button>
-    <button id="train-button">トレーニングする</button>
+    
+    <div class="button-container">
+        <button id="feed-button">ごはんをあげる</button>
+        <button id="train-button">トレーニングする</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
